@@ -1,0 +1,44 @@
+﻿<Window x:Class="KursovoiIvanovRPM.Application.NewFluids"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiIvanovRPM.Application"
+        mc:Ignorable="d"
+                       Title="New Fluids" Height="240" Width="525">
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="ID:"/>
+        <TextBox Grid.Row="0" Name="FluidsID" Margin="136,0,26,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="1" Content="Название:"/>
+        <TextBox Grid.Row="1" Name="FluidsName" Margin="136,0,26,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="2" Content="Цена:"/>
+        <TextBox Grid.Row="2" Name="FluidsPrice" Margin="136,0,26,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="3" Content="Тип жидкости:"/>
+        <TextBox Grid.Row="3" Name="FluidsType" Margin="136,0,26,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="4" Content="Страна-производитель:"/>
+        <TextBox Grid.Row="4" Name="FluidsCountry" Margin="136,0,26,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="5" Content="Количество:"/>
+        <TextBox Grid.Row="5" Name="FluidsColvo" Margin="136,0,26,1"/>
+
+        
+
+        <Button Grid.Row="7" Content="Сохранить" Click="NewFluidsSaveButton_Click" Margin="20,5,19,-5" Grid.RowSpan="2"/>
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+[
+  {
+    "ID": 1,
+    "LastName": "Иванов",
+    "FirstName": "Степан",
+    "MiddleName": "Сергеевич",
+    "Email": "iwanoff.stenka@yandex.ru",
+    "Phone": "89004829415",
+    "PassportData": "34567788766553"
+  },
+  {
+    "ID": 2,
+    "LastName": "Петров",
+    "FirstName": "Игорь",
+    "MiddleName": "Александрович",
+    "Email": "petr.igor@mail.ru",
+    "Phone": "89001112233",
+    "PassportData": "45678899001122",
+  },
+  {
+    "ID": 3,
+    "LastName": "Сидоров",
+    "FirstName": "Дмитрий",
+    "MiddleName": "Петрович",
+    "Email": "sidorov.dima@gmail.com",
+    "Phone": "89003334455",
+    "PassportData": "56789900123456",
+  },
+  {
+    "ID": 4,
+    "LastName": "Козлов",
+    "FirstName": "Антон",
+    "MiddleName": "Иванович",
+    "Email": "kozlov.anton@outlook.com",
+    "Phone": "89005556677",
+    "PassportData": "67890012345678",
+  },
+  {
+    "ID": 5,
+    "LastName": "Новиков",
+    "FirstName": "Максим",
+    "MiddleName": "Даниилович",
+    "Email": "novik.max@rambler.ru",
+    "Phone": "89007778899",
+    "PassportData": "78900123456789",
+  },
+  {
+    "ID": 6,
+    "LastName": "Борисов",
+    "FirstName": "Артем",
+    "MiddleName": "Сергеевич",
+    "Email": "boris.art@gmail.com",
+    "Phone": "89008889900",
+    "PassportData": "89001234567890"
+  }
+]

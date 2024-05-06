@@ -1,0 +1,40 @@
+﻿<Window x:Class="KursovoiIvanovRPM.Application.NewOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiIvanovRPM.Application"
+        mc:Ignorable="d"
+        Title="NewOrderWindow" Height="200" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="ID:"/>
+        <TextBox Grid.Row="0" x:Name="IdTextBox" IsEnabled="False" Margin="108,0,0,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="1" Content="Название:"/>
+        <TextBox Grid.Row="1" x:Name="NameTextBox" Margin="108,0,0,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="2" Content="Дата создания:"/>
+        <DatePicker Grid.Row="2" x:Name="DateCreatedDatePicker" SelectedDateFormat="Short" Margin="108,0,0,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="3" Content="Статус:"/>
+        <TextBox Grid.Row="3" x:Name="StatusTextBox" Margin="108,0,0,26" Grid.RowSpan="2"/>
+
+        <Label Grid.Row="4" Content="Дата выполнения:"/>
+        <DatePicker Grid.Row="4" x:Name="DateCompletedDatePicker" SelectedDateFormat="Short" Margin="108,0,0,20" Grid.RowSpan="2"/>
+
+        <Button Grid.Row="5" Content="Сохранить" Click="SaveButton_Click"/>
+
+    </Grid>
+</Window>

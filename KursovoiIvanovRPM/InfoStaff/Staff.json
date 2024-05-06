@@ -1,0 +1,56 @@
+[
+  {
+    "ID": 1,
+    "Surname": "Чехов",
+    "NameStaff": "Андрей",
+    "Patronumic": "Сергеевич",
+    "Post": "Разнорабочий",
+    "Telephone": "890032133",
+    "WorkExperience": "4 года"
+  },
+  {
+    "ID": 2,
+    "Surname": "Иванов",
+    "NameStaff": "Петр",
+    "Patronumic": "Александрович",
+    "Post": "Мастер по ремонту",
+    "Telephone": "89005556677",
+    "WorkExperience": "8 лет",
+  },
+  {
+    "ID": 3,
+    "Surname": "Сидоров",
+    "NameStaff": "Иван",
+    "Patronumic": "Петрович",
+    "Post": "Электрик",
+    "Telephone": "89001112233",
+    "WorkExperience": "6 лет",
+  },
+  {
+    "ID": 4,
+    "Surname": "Петров",
+    "NameStaff": "Сергей",
+    "Patronumic": "Иванович",
+    "Post": "Шиномонтажник",
+    "Telephone": "89009998877",
+    "WorkExperience": "3 года",
+  },
+  {
+    "ID": 5,
+    "Surname": "Козлов",
+    "NameStaff": "Алексей",
+    "Patronumic": "Дмитриевич",
+    "Post": "Маляр",
+    "Telephone": "89004443322",
+    "WorkExperience": "5 лет",
+  },
+  {
+    "ID": 6,
+    "Surname": "Никитин",
+    "NameStaff": "Дмитрий",
+    "Patronumic": "Андреевич",
+    "Post": "Автомеханик",
+    "Telephone": "89006665544",
+    "WorkExperience": "7 лет"
+  }
+]

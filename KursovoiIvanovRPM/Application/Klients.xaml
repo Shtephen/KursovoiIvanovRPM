@@ -1,0 +1,40 @@
+﻿<Window x:Class="KursovoiIvanovRPM.Application.Klients"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiIvanovRPM.Application"
+        mc:Ignorable="d"
+        Title="Клиенты" Height="450" Width="800">
+    <Grid Background="YellowGreen">
+        <Grid.RowDefinitions >
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+       
+        <TextBlock Text="Список клиентов" FontSize="20" HorizontalAlignment="Center" Margin="0,10"/>
+
+
+        <DataGrid Grid.Row="1" x:Name="dataGrid" ItemsSource="{Binding Clients}" AutoGenerateColumns="False" Background="Coral">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding FirstName}"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding MiddleName}"/>
+                <DataGridTextColumn Header="Электронная почта" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding Phone}"/>
+                <DataGridTextColumn Header="Паспортные данные" Binding="{Binding PassportData}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Добавить" Margin="5" Width="100" Click="NewKlientsButton_Click" Background="OrangeRed"/>
+            <Button Content="Изменить" Margin="5" Width="100" Click="RedaktKlientsButton_Click" Background="OrangeRed"/>
+            <Button Content="Удалить" Margin="5" Width="100" Click="DeleteKlientsButton_Click" Background="OrangeRed"/>
+            <Button Content="Вернуться в главное меню" Margin="5" Width="150" Click="KlientsBackToMenuButton_Click" Background="OrangeRed"/>
+        </StackPanel>
+    </Grid>
+</Window>

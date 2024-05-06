@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 3,
+    "Name": "Замена тормозных колодок",
+    "DateCreated": "2024-04-15T00:00:00",
+    "Status": "выполняется",
+    "DateCompleted": "2024-03-28T00:00:00"
+  },
+  {
+    "ID": 3,
+    "LastName": "Сидоров",
+    "FirstName": "Дмитрий",
+    "MiddleName": "Петрович",
+    "Email": "sidorov.dima@gmail.com",
+    "Phone": "89003334455",
+    "PassportData": "56789900123456"
+  },
+  {
+    "ID": 3,
+    "Brand": "Ford",
+    "Model": "Focus",
+    "LicensePlate": "М789ВЕ",
+    "Year": "2015",
+    "Mileage": "95000",
+    "VinNumber": "56мве789",
+    "StsNumber": "9876мве",
+    "StsIssueDate": "08.08.2023 0:00:00"
+  },
+  {
+    "ID": 3,
+    "NameList": "Шиномонтаж",
+    "Description": "Переобувка колес и балансировка",
+    "Price": 1500.0
+  },
+  {
+    "ID": 3,
+    "Surname": "Сидоров",
+    "NameStaff": "Иван",
+    "Patronumic": "Петрович",
+    "Post": "Электрик",
+    "Telephone": "89001112233",
+    "WorkExperience": "6 лет"
+  },
+  {
+    "ID": 3,
+    "NameZap": null,
+    "Price": 15000.0,
+    "FluidType": "Краска для кузова",
+    "CountryOfOrigin": "Италия",
+    "ColvoFluids": "3 л"
+  }
+]

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KursovoiIvanovRPM.Application.Zapchasti" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAABAEAAAEAAAAAAAAAAAACAAAAABAAA=</HashCode>
+      <FileName>Application\Zapchasti.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.Car">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAABAAAgAAAAAAgAAAAQAAAAAAAAAgAgAABAAA=</HashCode>
+      <FileName>Application\Cars.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.Cars" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAAAAAAAAAAAAAAAAEAAgAAAAAIAAAAAQAABAA=</HashCode>
+      <FileName>Application\Cars.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.Client">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAgAAAAAAQAAAAAAAAAAAAgAAAIAAAAAg=</HashCode>
+      <FileName>Application\Klients.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.Klients" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAKAAAAAEAAAAgAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Application\Klients.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.ListOfServices" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAAAAAAACAAAAAIAAEAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\ListOfServices.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.MenuWindow" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAEgAAAAgAAAAAAAAAAkEgAAhAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\MenuWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.NewCars" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Application\NewCars.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.NewFluids" BaseTypeListCollapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Application\NewFluids.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.NewKlients" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Application\NewKlients.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.NewListOfServices" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\NewListOfServices.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.NewOrderWindow" BaseTypeListCollapsed="true">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAQBAAAgAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\NewOrderWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.NewStaffWindow" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\NewStaffWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.Order">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAAAAAAAAQAAAAAAgAAAAAEAAAAAAA=</HashCode>
+      <FileName>Application\MenuWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.Service">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAggAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\ListOfServices.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.Staff">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAgAAAAAAAAAAADAAAAAIAEIAAAAAAAAA=</HashCode>
+      <FileName>Application\StaffWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.StaffWindow" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAIAAAAAgAgAAAgAAAAAQAA=</HashCode>
+      <FileName>Application\StaffWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KursovoiIvanovRPM.Application.TechnicalFluid">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAAgAAAAAAQAgAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Application\Zapchasti.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

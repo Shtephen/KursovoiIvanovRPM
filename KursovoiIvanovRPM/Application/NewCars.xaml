@@ -1,0 +1,58 @@
+﻿<Window x:Class="KursovoiIvanovRPM.Application.NewCars"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiIvanovRPM.Application"
+        mc:Ignorable="d"
+        Title="NewCars" Height="330" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Margin="10">
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="ID:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="IdTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="Марка:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="BrandTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="Модель:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="ModelTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="Номерной знак:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="LicensePlateTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="Год выпуска:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="YearTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="Пробег:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="MileageTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="VIN-Номер:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="VinNumberTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="Номер СТС:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="StsNumberTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                <TextBlock Text="Дата выдачи СТС:" Width="100" VerticalAlignment="Center"/>
+                <DatePicker x:Name="StsIssueDateDatePicker" Width="200"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Button Grid.Row="1" Content="Сохранить" HorizontalAlignment="Left" Margin="10,230,0,36" Click="SaveButton_Click" Height="25" Width="301"/>
+
+    </Grid>
+</Window>

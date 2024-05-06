@@ -1,0 +1,54 @@
+﻿<Window x:Class="KursovoiIvanovRPM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursovoiIvanovRPM"
+        mc:Ignorable="d"
+       Title="Вход в приложение" Height="350" Width="800" Background="#FFE6B800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="72.923" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" MinHeight="28" />
+            <RowDefinition Height="Auto" MinHeight="40.96" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Добро пожаловать!!!" HorizontalAlignment="Left" Margin="264,20,0,21" Grid.Row="0" FontSize="24" FontWeight="Bold" Width="250"/>
+
+        <Label Content="Логин:" Grid.Row="3" HorizontalAlignment="Left" Margin="202,12,0,42" Width="46" Grid.RowSpan="2">
+            <Label.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+            </Label.Resources>
+        </Label>
+        <TextBox x:Name="LoginTextBox" Grid.Row="3" Margin="248,14,270,47" Grid.RowSpan="2"  />
+        <Label Content="Пароль:" Grid.Row="4" HorizontalAlignment="Left" Margin="194,10,0,16" Width="54">
+            <Label.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+            </Label.Resources>
+        </Label>
+        <PasswordBox x:Name="PasswordTextBox" Grid.Row="4" Margin="248,16,270,16"  />
+
+        <Button Content="Вход" Click="LoginButton_Click" Grid.Row="4" Margin="274,102,296,-82" Background="#FFD2691E">
+            <Button.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button Content="Регистрация" Click="RegisterButton_Click" Grid.Row="4" Margin="274,156,296,-135" Background="#FFD2691E">
+            <Button.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <TextBlock x:Name="ErrorTextBlock" Grid.Row="4" Margin="248,53,270,-18" />
+    </Grid>
+</Window>

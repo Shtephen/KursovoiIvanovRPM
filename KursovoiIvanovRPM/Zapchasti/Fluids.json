@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 1,
+    "NameZap": "Rolf",
+    "Price": 4000,
+    "FluidType": "Масло двигателя",
+    "CountryOfOrigin": "Германия",
+    "ColvoFluids": "5 л"
+  },
+  {
+    "ID": 2,
+    "NameZap": "Pamer",
+    "Price": 2000,
+    "FluidType": "Камера в колесо",
+    "CountryOfOrigin": "Франция",
+    "ColvoFluids": "1 шт"
+  },
+  {
+    "ID": 3,
+    "NameZap": "AutoColor",
+    "Price": 15000,
+    "FluidType": "Краска для кузова",
+    "CountryOfOrigin": "Италия",
+    "ColvoFluids": "3 л"
+  },
+  {
+    "ID": 4,
+    "NameZap": "BrakeMaster",
+    "Price": 3500,
+    "FluidType": "Тормозная жидкость",
+    "CountryOfOrigin": "Япония",
+    "ColvoFluids": "1 л"
+  },
+  {
+    "ID": 5,
+    "NameZap": "EngineCheck",
+    "Price": 3000,
+    "FluidType": "Жидкость для диагностики двигателя",
+    "CountryOfOrigin": "США",
+    "ColvoFluids": "2 л"
+  },
+  {
+    "ID": 6,
+    "NameZap": "ShockAbsorber",
+    "Price": 5000,
+    "FluidType": "Масло для амортизаторов",
+    "CountryOfOrigin": "Корея",
+    "ColvoFluids": "2 л"
+  }
+]
